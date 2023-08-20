@@ -11,7 +11,7 @@ profile:
   address: >
     <p><a href='mailto:achleshl@andrew.cmu.edu'> Email</a> | <a href='https://github.com/Achleshwar'>Github</a> | <a href='https://www.linkedin.com/in/achleshwar-luthra-b80391187/'>LinkedIn</a></p>
     <p><a href='https://twitter.com/luthra_achal'>Twitter</a> | <a href='https://scholar.google.com/citations?user=37Cxhr0AAAAJ'>Google Scholar</a></p>
-    <p><i class="far fa-location-dot"></i>Pittsburgh, PA</p>
+    <p></i>Pittsburgh, PA</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
