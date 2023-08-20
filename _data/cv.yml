@@ -2,96 +2,69 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Achleshwar Luthra
     - name: Date of Birth
-      value: 14th March 1879
+      value: 4th May 2000
     - name: Languages
-      value: English, German
+      value: English, Hindi, Punjabi
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Master of Science in Computer Vision
+      institution: Carnegie Mellon University, Pittsburgh, PA, USA
+      year: December, 2023
+    - title: Bachelor of Engineering in Electrical and Electronics Engineering (Honors)
+      institution: Birla Institute of Technology and Science, Pilani, India
+      year: May, 2022
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graphics Research Intern
+      institution: Futurewei Technologies Inc. (Huawei R&D), Santa Clara, CA, USA
+      year: May - August, 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Working on NeRF-based space-time view synthesis of dynamic scenes from monocular blurry videos.
+    - title: Bachelor's Thesis (mentor- Prof. Narendra Ahuja)
+      institution: University of Illinois at Urbana-Champaign, Urbana, IL, USA
+      year: February - December, 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Extracted 3D models of pigs from videos using self-supervised learning, neural mesh renderer, and re-projection loss.
+        - Synthesized a dataset that included segmentation masks to complement re-projection loss-based training algorithm.
+        - Delivered results on pig tracking and pig 2D pose-estimation, contributing to a CVPRW’21 ORAL paper on multi-view tracking.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Research Intern (mentor- Prof. Jitendra Malik)
+      institution: University of California, Berkeley, CA, USA
+      year: January - March, 2021
       description:
+        - Evaluated algorithms such as MeshRCNN, 3D-R2N2, Occupancy Networks, and GenRe for single-view 3D reconstruction of inanimate objects on a novel dataset - Amazon-Berkeley Objects dataset.
+        - Executed preprocessing and benchmarking experiments on ABO dataset, which was accepted to CVPR 2022.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Research Intern
+      institution: CSIR-CEERI Central Electronics Engineering Research Institute, Pilani, India
+      year: October - December, 2020
+      description:
+        - Explored Inflated 3D ConvNets and Temporal Segment Networks for the task of Fall Detection.
+        - Designed a compressive sensing framework to obtain compressed measurements of video sequences as spatio-temporal input.
+        - Implemented two reconstruction architectures using densely connected neural networks and Convolutional Neural Network (ReconNet), to retrieve original images from compressed measurements.
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: 3D Computer Vision
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Neural Scene Representation
+        - 3D Scene Understanding
+        - 3D Reconstruction
+    - title: 2D Computer Vision
       items:
-        - Description 1.
-        - Description 2.
+        - Image Restoration (Deblurring, Denoising, Super-Resolution)
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
