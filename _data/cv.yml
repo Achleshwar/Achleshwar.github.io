@@ -25,21 +25,25 @@
       institution: Futurewei Technologies Inc. (Huawei R&D), Santa Clara, CA, USA
       year: May - August, 2023
       description:
-        - Working on NeRF-based space-time view synthesis of dynamic scenes from monocular blurry videos.
+        - Identified limitations in the existing research on modelling motion using implicit representations such as NeRF and proposed 
+          Deblur-NSFF, a method that can perform novel space-time synthesis from videos subject to motion blur or out-of-focus blur
+        - Achieved an improvement of 4.3%, and 12.8%, in PSNR and SSIM respectively, and a decrease of 28.12% in LPIPS value
+          on modified NVIDIA Dynamic Scenes Dataset, and submitted our work to WACV 2024
     - title: Bachelor's Thesis (mentor- Prof. Narendra Ahuja)
       institution: University of Illinois at Urbana-Champaign, Urbana, IL, USA
       year: February - December, 2021
       description:
-        - Extracted 3D models of pigs from videos using self-supervised learning, neural mesh renderer, and re-projection loss.
-        - Synthesized a dataset that included segmentation masks to complement re-projection loss-based training algorithm.
-        - Delivered results on pig tracking and pig 2D pose-estimation, contributing to a CVPRW’21 ORAL paper on multi-view tracking.
+        - Extracted 3D models of pigs from videos using self-supervised learning, neural mesh renderer, and re-projection loss
+        - Synthesized a dataset that included segmentation masks to complement re-projection loss-based training algorithm
+        - Delivered results on pig tracking and pig 2D pose-estimation, contributing to a CVPRW 2021 ORAL paper on multi-view tracking
 
     - title: Research Intern (mentor- Prof. Jitendra Malik)
       institution: University of California, Berkeley, CA, USA
       year: January - March, 2021
       description:
-        - Evaluated algorithms such as MeshRCNN, 3D-R2N2, Occupancy Networks, and GenRe for single-view 3D reconstruction of inanimate objects on a novel dataset - Amazon-Berkeley Objects dataset.
-        - Executed preprocessing and benchmarking experiments on ABO dataset, which was accepted to CVPR 2022.
+        - Evaluated algorithms such as MeshRCNN, 3D-R2N2, Occupancy Networks, and GenRe for single-view 3D reconstruction 
+          of inanimate objects on a novel dataset - Amazon-Berkeley Objects dataset
+        - Executed preprocessing and benchmarking experiments on ABO dataset, which was accepted to CVPR 2022
 
     - title: Research Intern
       institution: CSIR-CEERI Central Electronics Engineering Research Institute, Pilani, India
