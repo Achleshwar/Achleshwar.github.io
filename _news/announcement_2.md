@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-Presented [LVRNet](https://esha1302.github.io/lvrnet.github.io/) at AAAI 2023. 
+Presented [LVRNet](https://eshapahwa.github.io/lvrnet.github.io/) at AAAI 2023. 
 
 
 
