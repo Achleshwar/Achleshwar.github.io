@@ -21,6 +21,12 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Research Engineer, Graphics Rendering
+      institution: Futurewei Technologies Inc. (Huawei R&D), Santa Clara, CA, USA
+      year: Feb 2024 - Present
+      description:
+        - Building a CUDA-based Path Tracer in Python and Triton
+        - Also, exploring generalized neural radiance fields for 3D Scene Understanding
     - title: Graphics Research Intern
       institution: Futurewei Technologies Inc. (Huawei R&D), Santa Clara, CA, USA
       year: May - August, 2023
