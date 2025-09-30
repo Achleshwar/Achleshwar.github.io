@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achleshwar Luthra - Personal Webpage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-10 border-b border-gray-200">
+        <nav class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-gray-900">Achleshwar Luthra</a>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors">About</a>
+                <a href="#research" class="text-gray-600 hover:text-blue-600 transition-colors">Research</a>
+                <a href="#experience" class="text-gray-600 hover:text-blue-600 transition-colors">Experience</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto p-6 md:p-8">
+
+        <!-- Hero Section -->
+        <section class="flex flex-col-reverse md:flex-row items-center justify-between py-12 md:py-20 border-b border-gray-200">
+            <div class="mt-8 md:mt-0 md:pr-12">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-900">Achleshwar Luthra</h1>
+                <p class="mt-2 text-lg text-gray-600">Ph.D. Student in Computer Science at Texas A&M University.</p>
+                <p class="mt-4 max-w-xl text-gray-700">Focusing on Self-Supervised Learning (SSL) and Multimodal Learning to enable models to learn general-purpose representations.</p>
+                <div class="mt-6 flex flex-wrap gap-4">
+                    <a href="https://scholar.google.com/citations?user=37Cxhr0AAAAJ" class="inline-block bg-gray-200 text-gray-700 font-semibold px-4 py-2 rounded-lg hover:bg-gray-300 transition-colors">Google Scholar</a>
+                    <a href="https://github.com/Achleshwar" class="inline-block bg-gray-200 text-gray-700 font-semibold px-4 py-2 rounded-lg hover:bg-gray-300 transition-colors">GitHub</a>
+                    <a href="https://www.linkedin.com/in/achleshwar-luthra-b80391187/" class="inline-block bg-gray-200 text-gray-700 font-semibold px-4 py-2 rounded-lg hover:bg-gray-300 transition-colors">LinkedIn</a>
+                    <a href="https://twitter.com/luthra_achal" class="inline-block bg-gray-200 text-gray-700 font-semibold px-4 py-2 rounded-lg hover:bg-gray-300 transition-colors">Twitter</a>
+                </div>
+            </div>
+            <div class="flex-shrink-0">
+                <img src="assets/profile_pic_scholar.jpg" alt="Achleshwar Luthra" class="h-40 w-40 md:h-56 md:w-56 rounded-full object-cover border-4 border-white shadow-lg">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-16 border-b border-gray-200">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6">About Me</h2>
+            <div class="space-y-4 text-gray-700 leading-relaxed">
+                <p>I am a Computer Science Ph.D. student at Texas A&M University, advised by <a href="https://tomergalanti.github.io/" class="text-blue-600 hover:underline">Tomer Galanti</a> 
+                    where my research focuses on theoretical understanding of SSL and Multimodal Learning. My primary goal is to develop methods that allow AI models to 
+                    learn robust, general-purpose representations from data and effectively adapt across various modalities.</p>
+                <p>Before my doctoral studies, I worked at the intersection of 3D Computer Vision and AI, focusing on Neural Scene Representations and 3D Scene Understanding. 
+                    I earned my Master’s degree in Computer Vision from the <a href="https://www.ri.cmu.edu/" class="text-blue-600 hover:underline">Robotics Institute, CMU</a>, where I was 
+                    advised by <a href="https://davheld.github.io/" class="text-blue-600 hover:underline">David Held</a> and <a href="https://beisner.me/" class="text-blue-600 hover:underline">Ben Eisner</a> on 3D Scene Understanding. 
+                    During my undergraduate studies at BITS Pilani, I collaborated with <a href="https://vision.ai.illinois.edu/ahuja.html" class="text-blue-600 hover:underline">Narendra Ahuja</a> on 3D Reconstruction of Animals 
+                    and with <a href="https://people.eecs.berkeley.edu/~malik/" class="text-blue-600 hover:underline">Jitendra Malik</a>’s group on Single-View 3D Reconstruction of inanimate objects.</p>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section id="news" class="py-16 border-b border-gray-200">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8">News</h2>
+            <div class="space-y-6">
+                <!-- News Item -->
+                <div class="flex flex-col sm:flex-row items-start">
+                    <p class="text-gray-500 font-medium w-full sm:w-32 shrink-0 mb-1 sm:mb-0">Sep 2025</p>
+                    <p class="text-gray-700">🎉 <a href="https://dlfundamentals.github.io/ssl-is-approximately-sl/" class="text-blue-600 hover:underline">CL~NSCL</a> got accepted at NeurIPS 2025!</p>
+                </div>
+                <!-- News Item -->
+                <div class="flex flex-col sm:flex-row items-start">
+                    <p class="text-gray-500 font-medium w-full sm:w-32 shrink-0 mb-1 sm:mb-0">Jan 2025</p>
+                    <p class="text-gray-700">🎓 Started Ph.D. in Computer Science at Texas A&M University.</p>
+                </div>
+                <!-- News Item -->
+                <div class="flex flex-col sm:flex-row items-start">
+                    <p class="text-gray-500 font-medium w-full sm:w-32 shrink-0 mb-1 sm:mb-0">May 2024</p>
+                    <p class="text-gray-700">👨‍🎓 Conferred Master’s degree in Computer Vision from Carnegie Mellon University.</p>
+                </div>
+                <!-- News Item -->
+                <div class="flex flex-col sm:flex-row items-start">
+                    <p class="text-gray-500 font-medium w-full sm:w-32 shrink-0 mb-1 sm:mb-0">Feb 2024</p>
+                    <p class="text-gray-700">💼 Joined Futurewei as a Research Engineer (Graphics Rendering) working on Generalizable Radiance Fields.</p>
+                </div>
+                <!-- News Item -->
+                <div class="flex flex-col sm:flex-row items-start">
+                    <p class="text-gray-500 font-medium w-full sm:w-32 shrink-0 mb-1 sm:mb-0">Jan 2024</p>
+                    <p class="text-gray-700">🖥️ Presented our work on <a href="https://openaccess.thecvf.com/content/WACV2024/papers/Luthra_Deblur-NSFF_Neural_Scene_Flow_Fields_for_Blurry_Dynamic_Scenes_WACV_2024_paper.pdf" class="text-blue-600 hover:underline">Deblur Neural Scene Flow Fields</a> at WACV 2024.</p>
+                </div>
+                 <!-- To add a new item, copy the div block above and paste it here -->
+            </div>
+        </section>
+
+        <!-- Research Section -->
+        <section id="research" class="py-16 border-b border-gray-200">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6">Selected Publications</h2>
+            <div class="space-y-8">
+                <!-- Publication Item -->
+                <!-- <div class="p-6 bg-white rounded-lg border border-gray-200"> -->
+                <div class="p-6 bg-white rounded-lg border border-gray-200 transition-transform duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-blue-200">
+                    <h3 class="font-semibold text-lg text-gray-900">On The Alignment Between Supervised And Self-Supervised Learning</h3>
+                    <p class="text-md text-gray-700 mt-2">
+                        <strong>Achleshwar Luthra</strong>, Priyadarsi Mishra, and Tomer Galanti
+                    </p>                    
+                    <p class="text-md text-gray-700 italic mt-1">
+                        Under Review
+                    </p>                    
+                    <p class="mt-4 text-gray-700">
+                        <strong class="font-semibold text-gray-800">TL;DR:</strong> We show that self-supervised contrastive learning is aligned with its supervised counterpart, 
+                        not just at a loss level but also at a representation level.
+                    </p>
+                    <div class="mt-4">
+                        <a href="#" class="text-blue-600 font-medium hover:underline">Paper (Coming Soon)</a>
+                        <span class="text-gray-300 mx-2">|</span>
+                        <a href="#" class="text-blue-600 font-medium hover:underline">Code (Coming Soon)</a>
+                        <!-- <span class="text-gray-300 mx-2">|</span>
+                        <a href="#" class="text-blue-600 font-medium hover:underline">Slides</a> -->
+                    </div>
+                </div>
+                 <!-- Add more publication items here as needed -->
+                <div class="p-6 bg-white rounded-lg border border-gray-200 transition-transform duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-blue-200">
+                    <h3 class="font-semibold text-lg text-gray-900">Self-Supervised Contrastive Learning Is Approximately Supervised Contrastive Learning</h3>
+                     <p class="text-md text-gray-700 mt-2">
+                        <strong>Achleshwar Luthra</strong>, Tianbao Yang, and Tomer Galanti
+                    </p>                    
+                    <p class="text-md text-gray-700 italic mt-1">
+                        NeurIPS 2025
+                    </p>                    
+                    <p class="mt-4 text-gray-700">
+                        <strong class="font-semibold text-gray-800">TL;DR:</strong> We theoretically and empirically show that self-supervised 
+                        contrastive learning operates similarly to its supervised counterpart, and we explain transferability via representation geometry.
+                    </p>
+                    <div class="mt-4">
+                        <a href="https://arxiv.org/abs/2506.04411" class="text-blue-600 font-medium hover:underline">Paper</a>
+                        <span class="text-gray-300 mx-2">|</span>
+                        <a href="https://github.com/DLFundamentals/understanding-ssl/" class="text-blue-600 font-medium hover:underline">Code</a>
+                        <span class="text-gray-300 mx-2">|</span>
+                        <a href="https://dlfundamentals.github.io/ssl-is-approximately-sl/" class="text-blue-600 font-medium hover:underline">Project Page</a>
+                    </div>
+                </div>
+                 <!-- Add more publication items here as needed -->
+                <div class="p-6 bg-white rounded-lg border border-gray-200 transition-transform duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-blue-200">
+                    <h3 class="font-semibold text-lg text-gray-900">Deblur-NSFF: Neural Scene Flow Fields For Blurry Dynamic Scenes</h3>
+                     <p class="text-md text-gray-700 mt-2">
+                        <strong>Achleshwar Luthra</strong>, Shiva Gantha, Heather Yu, Liang Peng, Zongfang Lin, and Xiyun Song
+                    </p>                    
+                    <p class="text-md text-gray-700 italic mt-1">
+                        WACV 2024
+                    </p>                    
+                    <p class="mt-4 text-gray-700">
+                        <strong class="font-semibold text-gray-800">TL;DR:</strong> We propose a novel method to address motion blur in neural scene representations, enabling high-quality,
+                        novel space-time synthesis from blurry videos.
+                    </p>
+                    <div class="mt-4">
+                        <a href="https://openaccess.thecvf.com/content/WACV2024/papers/Luthra_Deblur-NSFF_Neural_Scene_Flow_Fields_for_Blurry_Dynamic_Scenes_WACV_2024_paper.pdf" class="text-blue-600 font-medium hover:underline">Paper</a>
+                        <span class="text-gray-300 mx-2">|</span>
+                        <a href="https://youtu.be/IuQ9x694zEA" class="text-blue-600 font-medium hover:underline">Supplementary Video</a>
+                    </div>
+                </div>
+                 <!-- Add more publication items here as needed -->
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="py-16 border-b border-gray-200">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6">Experience</h2>
+            <div class="space-y-6">
+                <div>
+                    <div class="flex justify-between items-baseline">
+                        <h3 class="font-semibold text-lg text-gray-900">Research Engineer, GenAI for Rendering Team</h3>
+                        <p class="text-sm text-gray-500">Feb 2024- Nov 2024 | May- Aug 2023</p>
+                    </div>
+                    <p class="text-md text-gray-600">Futurewei Technologies, San Jose, CA</p>
+                    <ul class="mt-2 list-disc list-inside space-y-2 text-gray-700">
+                        <li>Developed a generalized TensoRF method for efficient 3D scene understanding and interactive editing, 
+                            leading to a research submission to the <a href="https://dl.acm.org/doi/full/10.1145/3722564.3728385" class="text-blue-600 hover:underline"> ACM SIGGRAPH I3D Symposium 2025</a>.</li>
+                        <li>Pioneered Deblur-NSFF, a novel method to address motion blur in neural scene representations, enabling high-quality, 
+                            novel space-time synthesis from blurry videos; this work was accepted to 
+                            <a href="https://openaccess.thecvf.com/content/WACV2024/papers/Luthra_Deblur-NSFF_Neural_Scene_Flow_Fields_for_Blurry_Dynamic_Scenes_WACV_2024_paper.pdf" class="text-blue-600 hover:underline">WACV 2024</a>.</li>
+                    </ul>
+                    </div>
+                 <!-- Add more experience items here -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-16 text-center">
+            <h2 class="text-3xl font-bold text-gray-900">Best way to reach me</h2>
+            <p class="mt-4 text-lg text-gray-600">I'm always open to discussing research, new ideas, or potential collaborations.</p>
+            <div class="mt-6">
+                <a href="mailto:luthra@tamu.edu" class="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition-transform duration-300 transform hover:scale-105">
+                    luthra@tamu.edu
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-200">
+        <div class="max-w-4xl mx-auto px-6 py-4 text-center text-gray-500">
+            <p>&copy; 2025 Achleshwar Luthra. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
